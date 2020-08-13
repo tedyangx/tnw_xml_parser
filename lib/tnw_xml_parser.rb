@@ -1,14 +1,23 @@
 require "uri"
+require "nokogiri"
+require "open-uri"
 
 class TnwXmlParser
 
-  def initialize(xml_url:)
+  attr_reader :xml_url, :xml_doc
+
+  def self.parse(xml_url)
+    new(xml_url)
+  end
+
+  def initialize(xml_url)
     validate_xml_url(xml_url)
 
     @xml_url = xml_url
+    @xml_doc = Nokogiri::HTML(open(@xml_url))
   end
 
-  def parse
+  def convert_to_hash
     # to be implemented
   end
 

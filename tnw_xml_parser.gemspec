@@ -9,6 +9,8 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/tedyangx/tnw_xml_parser"
   s.license     = "MIT"
 
+  s.add_runtime_dependency "nokogiri"
+
   s.add_development_dependency "rspec"
   s.add_development_dependency "pry"
 end
