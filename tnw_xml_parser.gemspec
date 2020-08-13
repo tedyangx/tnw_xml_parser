@@ -5,8 +5,7 @@ Gem::Specification.new do |s|
   s.description = "This gem provides a ruby class called TnwXmlParser to do XML parsing."
   s.authors     = ["T Yang"]
   s.email       = "ted.yang@clio.com"
-  s.files       = ["lib/tnx_xml_parser.rb"]
-  s.homepage    =
-    'https://github.com/tedyangx/tnw_xml_parser'
-  s.license       = "MIT"
+  s.files       = ["lib/tnw_xml_parser.rb"]
+  s.homepage    = "https://github.com/tedyangx/tnw_xml_parser"
+  s.license     = "MIT"
 end
