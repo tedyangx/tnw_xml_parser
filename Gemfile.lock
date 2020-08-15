@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    tnw_xml_parser (0.0.1)
-      nokogiri
+    tnw_xml_parser (0.0.2)
+      nokogiri (~> 1.10)
 
 GEM
   remote: https://rubygems.org/
@@ -34,8 +34,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pry
-  rspec
+  pry (~> 0.13)
+  rspec (~> 3.9)
   tnw_xml_parser!
 
 BUNDLED WITH
