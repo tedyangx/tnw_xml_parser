@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "tnw_xml_parser"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.summary     = "TnwXmlParser"
   s.description = "This gem provides a ruby class called TnwXmlParser to do XML parsing."
   s.authors     = ["T Yang"]
