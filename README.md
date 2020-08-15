@@ -24,9 +24,10 @@ $ irb
 > require "tnw_xml_parser"
 => true
 
-> parser = TnwXmlParser.new
+> parser = TnwXmlParser.new("url_link_to_xml")
 => #<TnwXmlParser:0x00001asdf952913>
 
-> parse.hello
-hello world!
+> parser.read_data
+
+> parser.convert_to_hash
 ```
